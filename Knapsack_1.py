@@ -25,6 +25,5 @@ for bit in range(2 ** n):
     current_capacity = 0
     current_merchandices = []
 
-print(best_price)
-print(best_capacity)
-print(best_merchandices)
+print("最適な組み合わせ：", best_merchandices)
+print("その時の総価格：", best_price)
